@@ -84,7 +84,7 @@ The software stack is implemented in Python and follows a layered architecture:
   Encodes labware geometry (e.g. plates, tip racks, reservoirs) independently of motion logic, allowing new labware to be added without modifying control code.
 
 - **gui.py**  
-  A Tkinter-based graphical user interface providing manual jogging, homing, protocol execution, and real-time feedback.
+  A Tkinter-based graphical user interface providing manual jogging, homing, protocol execution, and real-time feedback, with optional GPT-assisted generation of JSON experiment protocols.
 
 ### Standalone Executable
 
