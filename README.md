@@ -39,7 +39,9 @@ This directory contains the mechanical design files for the syringe pump, experi
 
 ### Description
 
-The syringe pump is a leadscrew-driven linear actuator designed as a U-axis attachment for the Raise3D motion system. The structure is fabricated using FDM 3D printing with PLA material (15% infill selected for rapid prototyping and reduced material usage), combined with steel guide rods and standard linear bearings.
+The syringe pump mechanism used in this project is **adapted from the open-source Poseidon syringe pump project** developed by the Pachter Lab (https://github.com/pachterlab/poseidon), which is released under the **BSD 2-Clause License**.
+
+The original Poseidon design served as a structural and conceptual baseline. The geometry, mounting interfaces, and overall assembly were **modified and reworked** to support integration with a modified Raise3D Pro2 Plus motion platform and to meet the requirements of automated liquid-handling operations in this project.
 
 All CAD files are provided in both Fusion 360 (`.f3d`) and neutral STEP formats to support reuse, inspection, and modification in different CAD environments.
 
