@@ -68,7 +68,6 @@ The provided `firmware.bin` can be flashed directly to the controller via SD car
 
 **Directory:** `software/`
 
-### Structure
 
 ### Description
 
