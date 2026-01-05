@@ -53,10 +53,11 @@ All CAD files are provided in both Fusion 360 (`.f3d`) and neutral STEP formats 
 
 ### Contents
 
-- `Marlin-btt/` – Modified Marlin firmware configuration files
+- `Marlin-btt/` – Modified Marlin firmware files including configuration files
 - `firmware.bin` – Precompiled firmware image for direct flashing
 
 ### Description
+The firmware is based on the open-source Marlin project (GPLv3).
 
 Motion control is implemented using a BigTreeTech SKR Mini E3 V3.0 controller running a customised version of Marlin firmware. The firmware supports four stepper-driven axes (X, Y, Z, and U), sensorless homing via TMC2209 drivers, and motion constraints adapted for liquid-handling rather than 3D printing.
 
